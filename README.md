@@ -1,8 +1,12 @@
-[![](https://img.shields.io/pypi/pyversions/badge.svg?longCache=True)](https://pypi.org/pypi/badge/)
-[![](https://img.shields.io/pypi/v/badge.svg?maxAge=3600)](https://pypi.org/pypi/badge/)
+<!--
+https://pypi.org/project/readme-generator/
+-->
+
+[![](https://img.shields.io/pypi/pyversions/badge.svg?longCache=True)](https://pypi.org/project/badge/)
+[![](https://img.shields.io/pypi/v/badge.svg?maxAge=3600)](https://pypi.org/project/badge/)
 [![Travis](https://api.travis-ci.org/looking-for-a-job/badge.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/badge.py/)
 
-#### Install
+#### Installation
 ```bash
 $ [sudo] pip install badge
 ```
@@ -13,25 +17,9 @@ $ [sudo] pip install badge
 +   **minimalistic design**
 
 #### Classes
-
-###### `badge.Badge`
-
-badge generator class
-
-attr|default value
+class|`__doc__`
 -|-
-`branch`|`master`
-`image`|`''`
-`link`|`''`
-`markup`|`md`
-`title`|`''`
-`visible`|`True`
-
-@property|description
--|-
-`html`|render to .html
-`md`|render as .md
-`rst`|render as .rst
+`badge.Badge` |badge generator class
 
 #### Examples
 ```python
@@ -48,4 +36,6 @@ attr|default value
     : target: https://travis-ci.org/owner/repo/'
 ```
 
-<p align="center"><a href="https://pypi.org/project/readme-md/">readme-md</a> - README.md generator</p>
+<p align="center">
+    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+</p>
